@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'docker run -d ahmedeldaly097/web_app'
+                sh 'docker run -d ahmedeldaly097/CI-CD-Project .'
             }
         }
         stage('artifact') {
